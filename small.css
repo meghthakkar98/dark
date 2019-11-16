@@ -181,7 +181,7 @@ a:hover
 	-webkit-transition: .4s;
 	transition: .4s;
 }
-
+	
 .slider:before 
 {
 	position: absolute;
@@ -190,20 +190,12 @@ a:hover
 	width: 26px;
 	left: 4px;
 	bottom: 4px;
-	background-color: white;
+	background-color: #3a7bd5;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
 
-input:checked + .slider 
-{
-	background-color: #000000;
-}
 
-input:focus + .slider
-{
-	box-shadow: 0 0 1px #ffffff;
-}
 
 input:checked + .slider:before 
 {
