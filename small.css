@@ -122,8 +122,8 @@ a:hover
 	bottom:0;
 	left:0;
 	width:100%;	
-	padding-top:2%;
-	padding-bottom:2%;
+	padding-top:3%;
+	padding-bottom:3%;
 	/*opacity: 0.8*/
 
 }
@@ -153,7 +153,8 @@ a:hover
 
 .switch
 {
-
+	border-radius: 2px black;
+	text-align: center;		
 	position: relative;
 	display: inline-block;
 	width: 60px;
@@ -162,6 +163,7 @@ a:hover
 
 .switch input
 { 
+	text-align: center;
 	opacity: 0;
 	width: 0;
 	height: 0;
@@ -213,12 +215,13 @@ input:checked + .slider:before
 
 .slider.round 
 {
-	border-radius: 34px;
+
+	border-radius: 0px;
 }
 
 .slider.round:before 
 {
-	border-radius: 50%;
+	border-radius: 10px;
 }
 
 
