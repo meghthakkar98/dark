@@ -1,0 +1,131 @@
+    body
+    {
+        background: linear-gradient(to right, #67b26f, #4ca2cd);
+    }
+    h1
+    {
+     
+      font-size: 20px;
+    
+    }
+    p
+    {
+      color:#ffffff;
+      word-spacing: 2px;
+      font-family: 'Sintony', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      padding-left: 60px;
+      margin: 0px 100px 0px 250px ;
+      
+    }
+    img
+    {
+      padding-left: 200px;
+      height: 210px;
+      width: 210px ;
+      border-radius:5%;  
+    }
+    .tmyne
+    {
+      font-family: 'Merienda One', cursive;
+      font-size: 50px;
+      text-align: center;
+      padding-left: 200px;
+      color:#ffffff;  
+    }
+    a
+    {
+      font-family: 'Merienda One', cursive;
+      text-decoration: none;
+      color: #000000;
+    }
+    .icon
+    {
+      margin-left: 80px;
+      padding-left: 2px;  
+      text-decoration: none;
+      text-align: center;
+      word-spacing: 2px;
+    }         
+    
+    
+    /*---for Heading1----*/
+
+    .textchange1
+    {
+      color: #ffffff;  
+      font-family: 'Sintony', sans-serif;
+      font-size: 10px;
+      text-align: center;
+      padding-left: 190px; 
+    }
+    .textchange2
+    {
+      color: #ffffff;  
+      font-family: 'Sintony', sans-serif;
+      font-size: 10px;
+      text-align: center; 
+      padding-left: 190px;
+    }
+    .textchange3
+    {
+      color: #ffffff;  
+      font-family: 'Sintony', sans-serif;
+      font-size: 10px;
+      text-align: center; 
+      padding-left: 190px;
+    }
+    .textchange4
+    {
+      color: #ffffff;  
+      font-family: 'Sintony', sans-serif;
+      font-size: 10px;
+      text-align: center; 
+      padding-left: 190px;
+    }
+    
+    .panelabt
+    {
+     
+    }
+
+    .panelabi,.panelcur,.paneledu
+    {
+       display: none;
+      width: 100%;    
+     
+    }       
+
+    .pinnav
+    {
+      padding-bottom:  0 auto ; 
+    }
+
+    .tabresnavgi 
+    {
+      top:0;
+      left:0;
+      background-color: #000000;
+      position:fixed;
+      font-family: 'Sintony', sans-serif;
+      text-align:center;
+      height:100%;
+      width:25%;
+      overflow: auto; 
+    } 
+
+    .tflipabt,.tflipabi,.tflipcur,.tflipedu
+    {
+      display: block;
+      float: left;
+      font-size: 30px;
+      color:#ffffff;
+      padding:  50px 0px 0px 28px;   
+      
+    }
+
+    .thide
+    {
+      display: none;
+    }

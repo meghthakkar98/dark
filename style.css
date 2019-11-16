@@ -1,0 +1,274 @@
+body
+{
+background: linear-gradient(to left, #00d2ff, #3a7bd5); 
+}
+
+h1																					
+{
+
+font-size: 20px;
+
+}
+
+p
+{
+color:#737373;
+word-spacing: 2px;
+font-family: 'Sintony', sans-serif;
+font-size: 22px;
+text-align: center;
+margin: 0px 100px 0px 650px;
+color:#000000;
+}
+
+img
+{
+width: 500px;
+height: 300px;
+margin-left: 15%;
+margin-top: 15%;
+border-radius: 10px;
+}
+
+
+.logo
+{
+padding-left: 25%;
+width: 300px;
+height: 300px;
+
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px)
+{
+i
+{
+font-size: 17px;
+}
+}
+
+@media only screen and (min-width: 1801px) 
+{
+i
+{
+font-size: 23px;
+}
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px)
+{
+p
+{
+font-size: 23px;
+}
+}
+
+@media only screen and (min-width: 1801px) 
+{
+p
+{
+font-size: 27px;
+}
+}	
+
+.timeline
+{
+margin-top: -27%;
+float: right;
+clear: both;
+}
+
+@media only screen and (min-width: 1400px) and (max-width:1800px) 
+{
+.timeline
+{
+margin-top: -22%;
+}
+}
+
+@media only screen and (min-width: 1801px) 
+{
+.timeline
+{
+margin-top: -17%;
+}
+}
+
+
+.mainimg
+{
+
+float: left;
+clear: both;
+}
+
+.myne
+{
+font-family: 'Merienda One', cursive;
+font-size: 40px;
+padding-right:  19%;
+text-align: right;
+color: #ffffff;	
+padding-top: 1.6%;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px)
+{
+.myne
+{
+padding-right: 23%;
+}
+}
+
+@media only screen and (min-width: 1801px) 
+{
+.myne
+{
+padding-right: 29%;
+}
+}
+a
+{
+font-family: 'Merienda One', cursive;
+text-decoration: none;
+color: #ffffff;
+}
+
+a:hover
+{
+text-decoration: none;
+color: #ffffff;
+}
+
+.icon
+{
+text-decoration: none;
+word-spacing: 5px;
+color: #000000;
+margin-right: 18px;
+}
+
+.icon:hover
+{
+color:#ffffff;
+cursor: pointer;
+}
+
+/*---for Heading1----*/
+
+.textchange1
+{
+color: #ffffff;
+font-family: 'Sintony', sans-serif;
+padding-left: 66%;
+}
+.textchange2
+{
+color: #ffffff;	
+font-family: 'Sintony', sans-serif;
+padding-left: 66%;	
+}
+.textchange3
+{
+color: #ffffff;	
+font-family: 'Sintony', sans-serif;
+padding-left: 66%;
+}
+
+.textchange4
+{
+color: #ffffff;	
+font-family: 'Sintony', sans-serif;
+padding-left: 66%;
+}
+.textchange5
+{
+color: #ffffff;		
+font-family: 'Sintony', sans-serif;
+font-size: 10px;
+
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1800px)
+{
+.textchange1,.textchange2,.textchange3,.textchange4
+{
+padding-left: 64%;
+font-size: 10px;
+}
+}
+
+@media only screen and (min-width: 1801px) 
+{
+.textchange1,.textchange2,.textchange3,.textchange4
+{
+padding-left: 60%;
+font-size:15px;
+}
+}
+
+.panelabt
+{
+
+}
+
+.panelabi
+{
+
+display: none;
+width: 100%;		
+
+}
+.panelski
+{
+width: 100%;
+display: none;
+}				
+.panelcur,.paneledu
+{
+display: none;
+width: 100%;		
+
+}
+
+.resnavgi	
+{
+background: linear-gradient(to left, #00d2ff, #3a7bd5); 
+position:fixed;	
+font-family: 'Sintony', sans-serif;
+text-align:center;
+top:0;
+left:0;
+width:100%;	
+display: block;
+
+
+}	
+
+.flipabt,.flipabi,.flipcur,.flipedu
+{
+float: left;
+font-size: 17px;
+margin-top: 1%;
+color:#ffffff;
+padding-left: 3%;	 
+cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1800px) 
+{
+.flipabt,.flipabi,.flipcur,.flipedu
+{	
+font-size: 23px;
+}	
+}
+
+
+.deskhide
+{
+display: none;
+}
